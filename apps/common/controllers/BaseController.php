@@ -17,5 +17,6 @@ abstract class BaseController extends Controller {
         $this->assets->addCss("css/w3.css");
         $this->assets->addCss("css/common.css");
         $this->assets->addJs("js/jquery.min.js");
+        $this->assets->addJs("js/base.js");
     }
 }
