@@ -4,16 +4,13 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Nov 15, 2016, 10:18:47 AM
+    Created on : Nov 16, 2016, 4:01:18 PM
     Author     : David JP <david.gnext@gmail.com>
 */
 
-.content {
-    margin-top: 15%;
+.sidenav-content {
+    margin-top: 70px;
 }
-.main {
-    height: 100%;
-}
-#head_height {
-    height: 50px;
+.w3-form {
+    margin : 3% 0 0 15%;
 }
