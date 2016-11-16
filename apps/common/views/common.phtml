@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Some amazing website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <?php 
+        $this->assets->outputCss(); 
+        $this->assets->outputJs(); 
+        ?>
+    </head>
+
+    <body>        
+        <!--        Navigation bar-->
+<!--        <nav class="w3-sidenav" style="width:15%">
+            <div class="w3-container w3-teal">
+                <h2 class="w3-center w3-text-white ">Menu</h2>
+            </div>                          
+            <div class="w3-large w3-text-brown w3-panel">
+                <a class="w3-teal w3-margin-bottom w3-padding-12 w3-hover-black" href="<?=$baseUrl?>index">Home</a>                
+                <div class="w3-dropdown-hover w3-margin-bottom">
+                    <a class="w3-teal w3-padding-12 w3-hover-black" href="#">Top Page <i class="fa fa-caret-down"></i></a>
+                    <div class="w3-dropdown-content w3-white w3-card-8">
+                        <a href="<?=$baseUrl?>top/index/gold">Gold</a>
+                        <a href="<?=$baseUrl?>top/index/normal">Normal</a>
+                    </div>
+                </div> 
+                <a class="w3-teal w3-margin-bottom w3-padding-12 w3-hover-black" href="#">Product</a>
+            </div>
+        </nav>-->
+        <!--Content -->
+        <div class="w3-main w3-blue-grey main">
+            <div class="w3-container w3-light-grey">
+                <h2 class="w3-center w3-text-blue-gray">SBwork MM</h2>
+            </div>
+           <?php echo $this->getContent(); ?>
+        </div>
+    </body>
+</html>    
