@@ -1,62 +1,13 @@
-<!--<div class="w3-content content">
-    <div class="w3-card-4"><li class="w3-dropdown-hover">
-            <a href="#">Top <i class="fa fa-caret-down"></i></a>
-            <div class="w3-dropdown-content w3-white w3-card-4">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </li>
-    </div>
-    <div class="w3-card-4">
-        <li class="w3-dropdown-hover">
-            <a href="#">Product <i class="fa fa-caret-down"></i></a>
-            <div class="w3-dropdown-content w3-white w3-card-4">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
-        </li>
-    </div>
-</div>-->
-
-<!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
-<body class="w3-light-blue">
-
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px;margin-top:43px;">
-
-  <!-- Header -->
-  <header class="w3-container" style="padding-top:22px">
-    <h5><b><i class="fa fa-dashboard"></i> Sts System</b></h5>
-  </header>
-
-  <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-quarter">
-      <div class="w3-container w3-teal w3-padding-16">
-           <div class="w3-clear"></div>
-           <h4><a href="top/index/index">TOP</a></h4>
-      </div>
-    </div>
-    <div class="w3-quarter">
-      <div class="w3-container w3-blue w3-padding-16">
-        
-        <div class="w3-clear"></div>
-        <h4><a href="product/index/index">PRODUCT</a></h4>
-      </div>
-    </div>
-    
-  </div>
-
-  
-
-</body>
-</html>
-
+<div class="w3-content content w3-row">
+    <li class="w3-dropdown-hover w3-col m5 w3-white w3-card-4 w3-padding-24 w3-center">
+        <a href="#" class="">Top <i class="fa fa-caret-down"></i></a>
+        <div class="w3-dropdown-content w3-blue-grey w3-card-4 w3-col m12 w3-padding-24 w3-margin-top">
+            <a href="<?=$baseUrl?>top/index/gold" class="w3-padding-16">Gold</a>
+            <a href="<?=$baseUrl?>top/index/normal" class="w3-padding-16">Normal</a>
+            <a href="#" class="w3-padding-16">Link 3</a>
+        </div>
+    </li>        
+    <li class="w3-dropdown-hover w3-margin-left w3-card-4 w3-col m5 w3-padding-24 w3-deep-orange w3-center">
+        <a href="<?=$baseUrl?>index/index/product">Product </a>
+    </li>    
+</div>

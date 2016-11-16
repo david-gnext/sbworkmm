@@ -10,7 +10,7 @@ use Common\Controllers\BaseController;
 class IndexController extends BaseController {
     
     public function goldAction() {
-        
+        $this->assets->addJs("apps/top/js/base.js");
     }
     
     public function normalAction() {

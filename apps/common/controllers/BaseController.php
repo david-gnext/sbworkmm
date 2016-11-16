@@ -16,5 +16,6 @@ abstract class BaseController extends Controller {
         $this->view->baseUrl = $this->url->getBaseUri();
         $this->assets->addCss("css/w3.css");
         $this->assets->addCss("css/common.css");
+        $this->assets->addJs("js/jquery.min.js");
     }
 }
