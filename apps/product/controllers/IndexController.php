@@ -13,6 +13,9 @@ class IndexController extends BaseController {
         $this->assets->addCss('apps/product/css/product.css');
         $this->assets->addJs('apps/product/js/product.js');
     }
-    
+    public function afterAction() {
+        $this->assets->addCss('apps/product/css/product.css');
+        $this->assets->addJs('apps/product/js/product.js');
+    }
     
 }
