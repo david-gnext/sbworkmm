@@ -1,74 +1,31 @@
-<!--<div class="w3-content content w3-khaki w3-round-jumbo w3-padding-12 ">
-    <form class="w3-container w3-wide w3-xlarge w3-text-dark-grey">
-        <h1>Checkboxes</h1>                    
-        <p class="w3-card-8 w3-padding-16 w3-padding-left">
-            <input class="w3-check" type="checkbox" checked="checked">
-            <label class="w3-validate">Top</label></p>
-        <p class="w3-card-8 w3-padding-16 w3-padding-left">
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate"> Gold</label></p>
-        <p class="w3-card-8 w3-padding-16 w3-padding-left">
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Lemon (Disabled)</label></p>
-    </form>
-</div>-->
-<nav class="w3-sidenav w3-border-right w3-border-orange" style="width:15%" >
-            <div class="w3-container w3-teal">
-                <h2 class="w3-center w3-text-white ">Menu</h2>
-            </div>                          
-            <div class="w3-large w3-text-brown w3-panel">
-                <a class="w3-teal w3-margin-bottom w3-padding-12 w3-hover-black" href="<?=$baseUrl?>index">Home</a>                
-                <div class="w3-dropdown-hover w3-margin-bottom">
-                    <a class="w3-teal w3-padding-12 w3-hover-black" href="#">Top Page <i class="fa fa-caret-down"></i></a>
-                    <div class="w3-dropdown-content w3-white w3-card-8">
-                        <a href="<?=$baseUrl?>top/index/gold">Gold</a>
-                        <a href="<?=$baseUrl?>top/index/normal">Normal</a>
-                    </div>
-                </div> 
-                <a class="w3-teal w3-margin-bottom w3-padding-12 w3-hover-black" href="#">Product</a>
-            </div>
-        </nav>
-<div class="w3-content content w3-light-blue w3-padding-12 ">
-    <form class="w3-container w3-text-white">
-        <h1 class="w3-panel  w3-wide w3-text-blue-gre w3-border-bottom w3-border-orange">Checking of Top Page Working Process </h1>
+<!--        Navigation bar-->
+<nav class="w3-sidenav w3-border-right w3-quarter m2 w3-col">
+    <div class="w3-large w3-text-brown w3-panel">
+        <a class="w3-light-gray w3-margin-bottom w3-padding-12 w3-hover-black" href="<?= $baseUrl ?>index">Home</a>                
+        <a class="w3-light-grey w3-margin-bottom w3-padding-12 w3-hover-black" href="#">Before</a>                   
+        <a class="w3-light-gray w3-margin-bottom w3-padding-12 w3-hover-black" href="#">Working</a>
+        <a class="w3-light-gray w3-margin-bottom w3-padding-12 w3-hover-black" href="#">After</a>
+    </div>
+</nav>
+<div class="w3-container sidenav-content w3-padding-12">
+    <form class="w3-container w3-blue-gray w3-text-white w3-form">
+        <h1 class="w3-panel  w3-wide w3-text-shadow-white w3-border-bottom w3-border-orange">Check the follwing procress before migration </h1>
         <ul class="w3-ul w3-card-4">
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Have the smartphone TOP page?(GOLD of sp, or RMS)</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">  While there is not data in RMS,get the source code from the browser.</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">If comment out the Rakuten's image,check remain schema(space) and while still schema clear that.</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Check the banner of height is match?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Have a PPM header bar?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Have comment out Rakuten's event?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Have the image with Rakuten? (Eg.foot_payment)</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Have comment out QR-Code image?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Remain to change the Rakuten Link?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Is using [iframe] in the CSV file?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">Remain the image with asuraku?</label></li>
-        <li>
-            <input class="w3-check" type="checkbox">
-            <label class="w3-validate">There is an pick up item?</label></li>
-        </ul>
-         <button class="w3-btn w3-green w3-hide">Send Message</button>
+            <li>
+                <input class="w3-check" type="checkbox">
+                <label class="w3-validate">Whether the total size of GOLD files is over 100 mb (in that case, images are registered in image management)</label></li>
+            <li>
+                <input class="w3-check" type="checkbox">
+                <label class="w3-validate">Did you check the STS application instruction.</label></li>
+            <li>
+                <input class="w3-check" type="checkbox">
+                <label class="w3-validate">Product status at transition.</label></li>
+            <li>
+                <input class="w3-check" type="checkbox">
+                <label class="w3-validate">Before edit,there is a product already registered in Ponpare Mall(If the customer want to erase all, first delete all)</label></li>
+            <li>
+                <input class="w3-check" type="checkbox">
+                <label class="w3-validate">If the shop is open, did you change the status of basic information setting?</label></li>
+            
     </form>
 </div>

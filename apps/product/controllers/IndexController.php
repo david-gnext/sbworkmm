@@ -10,8 +10,8 @@ use Common\Controllers\BaseController;
 class IndexController extends BaseController {
     
     public function normalAction() {
-        $this->assets->addCss('css/product.css');
-        $this->assets->addJs('js/product.js');
+        $this->assets->addCss('apps/product/css/product.css');
+        $this->assets->addJs('apps/product/js/product.js');
     }
     
     

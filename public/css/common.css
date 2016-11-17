@@ -9,8 +9,11 @@ and open the template in the editor.
 */
 
 .content {
-    margin-top: 5%;
+    margin-top: 15%;
 }
 .main {
     height: 100%;
+}
+#head_height {
+    height: 50px;
 }
