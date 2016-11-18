@@ -1,8 +1,11 @@
 <!--        Navigation bar-->
 <nav class="w3-sidenav w3-border w3-quarter m2 w3-col">
+     <div class="w3-container">
+    <h3 class="w3-text-shadow w3-border-bottom w3-text-black">Product</h3>
+    </div>
     <div class="w3-large w3-text-brown w3-panel">                   
-        <a class="w3-light-grey w3-margin-bottom w3-padding-12 w3-hover-black w3-border" href="<?=$baseUrl?>product/index">Before</a>                   
-        <a class="w3-light-gray w3-margin-bottom w3-padding-12 w3-hover-black w3-border" href="<?=$baseUrl?>product/index/after">After</a>
+        <a class="w3-light-grey w3-margin-bottom w3-padding-12 w3-border" href="<?=$baseUrl?>product/index">Before</a>                   
+        <a class="w3-blue-gray w3-margin-bottom w3-padding-12 w3-border" href="#">After</a>
     </div>
 </nav>
 <div class="w3-container sidenav-content">
@@ -27,5 +30,7 @@
             <li>
                 <input class="w3-check" type="checkbox">
                 <label class="w3-validate">Have comment out QR-Code image?</label></li>
+        </ul>
+        <a href="#" class="w3-btn w3-green w3-padding-16 w3-hide sidenav-content link-btn">Send Message</a>
     </form>
 </div>
