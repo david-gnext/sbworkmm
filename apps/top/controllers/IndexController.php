@@ -9,13 +9,21 @@ use Common\Controllers\BaseController;
 
 class IndexController extends BaseController {
     
-    public function indexAction() {
+    public function initialize() {
+        parent::initialize();
         $this->assets->addCss("apps/top/css/base.css");
         $this->assets->addJs("apps/top/js/base.js");
     }
     
-    public function normalAction() {
+    public function indexAction() {
+     
+    }
+    
+    public function workingAction() {
         
     }
     
+    public function afterAction() {
+        
+    }
 }
