@@ -17,3 +17,7 @@ and open the template in the editor.
 #head_height {
     height: 50px;
 }
+.link-btn {
+    margin : 0 auto;
+    width: 20%;
+}
